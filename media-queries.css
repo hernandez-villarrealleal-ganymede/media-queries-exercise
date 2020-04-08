@@ -39,7 +39,7 @@ nav {
     width: 50%;
     float:right;
     position: relative;
-    bottom: 350px;
+    bottom: 110px;
 }
 footer {
     position: relative;
@@ -51,7 +51,7 @@ footer {
         background: lightblue;
         justify-content: center;
         width: 80%;
-        margin: auto;
+        margin-left: 6em;
         border: 2px solid lightgray;
 
     }
@@ -67,8 +67,8 @@ footer {
 
     h1 {
         font-size: 4em;
-        margin-top: 0;
-        margin-left: calc(50% - 2em);
+        margin-bottom: 1em;
+        margin-left: 2.5em;
         }
 
     nav {
@@ -100,6 +100,21 @@ footer {
         width: 300px;
         margin-right: 50em;
         justify-content: center;
+        left: 6.5em;
+    }
+    .main {
+        width: 300px;
+        margin: auto;
+        left: 3em;
+    }
+    h2 {
+        margin-bottom: 0;
+    }
+    .sub-section {
+        font-style: italic;
+        width: 300px;
+        margin: auto;
+        top: 2em;
     }
 }
 
